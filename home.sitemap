@@ -1,0 +1,12 @@
+sitemap home label="CATHOUSE-PROJETO3"
+{
+
+Switch item=channel1
+Switch item=channel2
+Switch item=channel3
+Switch item=channel4
+Switch item=channel5
+Switch item=channel6
+Switch item=channel7
+Switch item=channel8
+}
