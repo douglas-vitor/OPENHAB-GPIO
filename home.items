@@ -1,15 +1,9 @@
 
-#<TIPO ITEM> <NOME DO ITEM> <RÓTULO DO ITEM> <CONFIGURAÇÃO DA LIGAÇÃO>
-
-#RELES
-#activelow significa que quando o interruptor esta desligado não ha tensão no pino gpio
-#initialvalue é o valor inicial que o openhabian ira utilizar , usando high o interruptor sera desligado na inicialização, usando low o interruptor nao sera desligado na inicialização
-
 Switch channel1 "Channel1" { gpio="pin:17 activelow:yes initialvalue:high" }
-Switch channel2 "Channel2" { gpio="pin:27 activelow:yes initialvalue:high" }
-Switch channel3 "Channel3" { gpio="pin:22 activelow:yes initialvalue:high" }
-Switch channel4 "Channel4" { gpio="pin:19 activelow:yes initialvalue:high" }
-Switch channel5 "Channel5" { gpio="pin:26 activelow:yes initialvalue:high" }
-Switch channel6 "Channel6" { gpio="pin:18 activelow:yes initialvalue:high" }
-Switch channel7 "Channel7" { gpio="pin:23 activelow:yes initialvalue:high" }
-Switch channel8 "Channel8" { gpio="pin:24 activelow:yes initialvalue:high" }
+Switch channel2 "Channel2" { gpio="pin:18 activelow:yes initialvalue:high" }
+Switch channel3 "Channel3" { gpio="pin:27 activelow:yes initialvalue:high" }
+Switch channel4 "Channel4" { gpio="pin:22 activelow:yes initialvalue:high" }
+Switch channel5 "Channel5" { gpio="pin:23 activelow:yes initialvalue:high" }
+Switch channel6 "Channel6" { gpio="pin:24 activelow:yes initialvalue:high" }
+Switch channel7 "Channel7" { gpio="pin:25 activelow:yes initialvalue:high" }
+Switch channel8 "Channel8" { gpio="pin:5 activelow:yes initialvalue:high" }
